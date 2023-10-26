@@ -1,0 +1,38 @@
+.wrapper {
+  margin-bottom: 50px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 20px 20px;
+  background-color: #2a2f4f;
+}
+
+.wrapper img {
+  width: 300px;
+}
+
+.wrapper h2 {
+  text-align: left;
+  width: 650px;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+  .wrapper img {
+    width: 250px;
+  }
+  .wrapper h2 {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 565px) {
+  .wrapper h2 {
+    width: 100%;
+    font-size: 20px;
+  }
+  .wrapper {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+}

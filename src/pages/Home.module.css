@@ -1,0 +1,14 @@
+.Home {
+  min-height: 100vh;
+}
+
+.Home ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 50%;
+  justify-content: center;
+  margin: 100px auto 85px auto;
+  padding: 0;
+  gap: 20px;
+}

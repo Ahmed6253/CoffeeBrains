@@ -1,0 +1,80 @@
+{
+  "coffeeBeans": [
+    {
+      "name": "Colombia La Mesita",
+      "notes": "Floral Dark Chocolate, Nuts, Raw Sugar.",
+      "price": "175",
+      "bagSize": "250gm",
+      "type": "Single Origin"
+    },
+    {
+      "name": "Ethiopian lekempti",
+      "notes": "Salted Caramel, Chocolate, Coconut, Hazelnut",
+      "price": "105",
+      "bagSize": "250gm",
+      "type": "Single Origin"
+    },
+    {
+      "name": "Yemen Haraaz",
+      "notes": "Brown sugar,  cane juice,",
+      "price": "240",
+      "bagSize": "250gm",
+      "type": "Single Origin"
+    },
+    {
+      "name": "Classic Espresso",
+      "notes": "Chocolate , Brown Suger , Citrus Fruits",
+      "price": "150",
+      "bagSize": "250gm",
+      "type": "Blend"
+    },
+    {
+      "name": "Super Cream",
+      "notes": "Dark Chocolate , Peanut",
+      "price": "110",
+      "bagSize": "250gm",
+      "type": "Blend"
+    },
+    {
+      "name": "Gold",
+      "notes": "Nuts , Chocolate Milk , Cardamom , Lemon",
+      "price": "125",
+      "bagSize": "250gm",
+      "type": "Blend"
+    }
+  ],
+
+  "drinks": [
+    {
+      "name": "Espresso",
+      "price": "25",
+      "imgsrc": "../assets/drinks/espresso.png"
+    },
+    {
+      "name": "Double shot espresso",
+      "price": "40",
+      "imgsrc": "../assets/drinks/espresso2.png"
+    },
+    {
+      "name": "Americano",
+      "price": "40",
+      "imgsrc": "../assets/drinks/americano.png"
+    },
+    {
+      "name": "Cappuccino",
+      "price": "55",
+      "imgsrc": "../assets/drinks/cappuccino.png"
+    },
+    {
+      "name": "Latte macchiato",
+      "price": "60",
+      "imgsrc": "../assets/drinks/latte-macchiato.png"
+    },
+    {
+      "name": "Latte with whipped cream",
+      "price": "70",
+      "imgsrc": "../assets/drinks/latte-with-whipped-cream.png"
+    },
+    { "name": "Frappe", "price": "65", "imgsrc": "../assets/drinks/frappe.png" }
+  ]
+}

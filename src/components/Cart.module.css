@@ -1,0 +1,77 @@
+.ItemsModal {
+  gap: 10px;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  display: grid;
+  margin: 50px auto auto auto;
+  border-radius: 10px;
+  background-color: #2a2f4f;
+  overflow: hidden;
+  width: 90%;
+}
+
+.cartHead {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+.control {
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+.control a,
+.control button {
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.clear {
+  background-color: rgb(122, 45, 43);
+}
+
+.check {
+  background-color: #4b6587;
+}
+
+.totaltext {
+  color: #83c9a2;
+}
+
+.emptytext {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 770px) {
+  .ItemsModal {
+    width: 85%;
+  }
+  .control a,
+  .control button {
+    font-size: 15px;
+  }
+  .cartHead h2 {
+    font-size: 18px;
+  }
+  .emptytext {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .control a,
+  .control button {
+    font-size: 15px;
+  }
+  .cartHead h2 {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,23 @@
+.error {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.btn {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  border-radius: 5px;
+  margin: auto;
+  width: 180px;
+  background-color: #2a2f4f;
+}

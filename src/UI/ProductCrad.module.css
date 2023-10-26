@@ -1,0 +1,46 @@
+.ProductCard {
+  align-items: center;
+  align-content: center;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  background-color: #698cbb11;
+  border-radius: 5px;
+}
+
+.ProductCard h2 {
+  font-size: 18px;
+  margin: 5px auto;
+}
+.ProductCard p {
+  color: #94b2d8;
+  font-size: 15px;
+  margin: 5px auto;
+}
+.ProductCard h3 {
+  font-size: 18px;
+  color: #94b2d8;
+  margin: 5px auto;
+}
+
+.ProductCard button {
+  cursor: pointer;
+  padding: 10px 5px;
+  background-color: #698dbb;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 525px) {
+  .ProductCard h2 {
+    font-size: 15px;
+    margin: 5px auto;
+  }
+}

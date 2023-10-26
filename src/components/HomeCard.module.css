@@ -1,0 +1,39 @@
+.Card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2a2f4f;
+  width: 150px;
+  border-radius: 20px;
+  font-size: 12px;
+  height: 90px;
+  cursor: pointer;
+}
+
+.Card img {
+  padding: 0;
+  width: 50px;
+  transition: 0.3s;
+}
+
+.Card h2 {
+  font-size: 15px;
+  display: none;
+}
+
+.Card:hover h2 {
+  display: block;
+}
+.Card:hover img {
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 520px) {
+  .Card {
+    width: 100px;
+  }
+  .Card h2 {
+    font-size: 12px;
+  }
+}

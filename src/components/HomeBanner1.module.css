@@ -1,0 +1,82 @@
+.wrapper1 {
+  margin: 40px auto;
+  justify-content: center;
+  gap: 80px;
+  display: flex;
+  background: url('../assets/Shadow.png') no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+}
+
+.wrapper1 img {
+  width: 400px;
+}
+
+.orderBlock h1 {
+  margin: 0 auto;
+  text-align: left;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.orderBlock {
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  display: flex;
+  gap: 50px;
+}
+
+.orderBlock a {
+  align-self: flex-end;
+  background-color: #544035;
+  border-radius: 10px;
+  padding: 10px 15px;
+  font-size: 30px;
+  font-weight: 900;
+  color: white;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 860px) {
+  .orderBlock h1 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 788px) {
+  .orderBlock a {
+    font-size: 25px;
+  }
+  .orderBlock h1 {
+    font-size: 35px;
+  }
+  .wrapper1 {
+    gap: 30px;
+  }
+  .wrapper1 img {
+    width: 320px;
+  }
+}
+
+@media only screen and (max-width: 615px) {
+  .orderBlock h1 {
+    font-size: 35px;
+    align-self: center;
+    text-align: center;
+    position: absolute;
+    top: 240px;
+  }
+
+  .wrapper1 {
+    position: relative;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+  }
+  .orderBlock a {
+    font-size: 25px;
+    align-self: center;
+  }
+}

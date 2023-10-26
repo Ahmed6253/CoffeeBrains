@@ -1,0 +1,83 @@
+.shopBar {
+  background-color: #2a2f4f;
+  border-radius: 10px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 85%;
+  height: 60px;
+}
+
+.shopBar img {
+  width: 40px;
+  margin: auto;
+}
+.shopBar a {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  display: flex;
+  transition: 0.5s;
+  width: 40px;
+  border-radius: 20px;
+}
+.shopBar a.active {
+  background-color: #4b6587;
+}
+
+.shopBar form {
+  display: flex;
+  width: 50%;
+}
+.text {
+  font-size: 18px;
+  border: none;
+  height: 35px;
+  border-radius: 10px;
+  padding-left: 10px;
+  width: 80%;
+  background-color: #4b6587;
+  color: white;
+}
+.btn {
+  cursor: pointer;
+  border: none;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: auto 10px;
+  background-color: #4b6587;
+}
+
+.iconSearch {
+  margin: auto;
+  font-size: 20px;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .shopBar {
+    border-radius: 0 0 10px 10px;
+    margin: 0px auto 50px auto;
+    width: 100%;
+  }
+  .shopBar a {
+    width: 25px;
+    height: 55px;
+  }
+  .shopBar img {
+    width: 30px;
+  }
+
+  .iconSearch {
+    font-size: 18px;
+  }
+  .btn {
+    margin: auto 5px;
+  }
+}
