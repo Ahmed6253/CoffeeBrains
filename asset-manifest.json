@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/CoffeeBrains/static/css/main.6830b7b2.css",
+    "main.js": "/CoffeeBrains/static/js/main.cfc6b79d.js",
+    "static/js/787.28cb0dcd.chunk.js": "/CoffeeBrains/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Shadow.png": "/CoffeeBrains/static/media/Shadow.fc7ae5c3fa8a8e357f96.png",
+    "static/media/Coffee_Cup.png": "/CoffeeBrains/static/media/Coffee_Cup.7df65d0bc23bb4172fdb.png",
+    "static/media/CoffeeCupBanner.png": "/CoffeeBrains/static/media/CoffeeCupBanner.878c99419c44e6a39de6.png",
+    "static/media/CoffeeBag.png": "/CoffeeBrains/static/media/CoffeeBag.d1632be1efa3f96cc15c.png",
+    "static/media/CoffeeBrainsLogo.png": "/CoffeeBrains/static/media/CoffeeBrainsLogo.60bd61c2e59dcd440456.png",
+    "static/media/map.png": "/CoffeeBrains/static/media/map.0b60b3653f3a8ef2f5f4.png",
+    "static/media/bag.png": "/CoffeeBrains/static/media/bag.bc86da64e2a503abb71b.png",
+    "static/media/cart.png": "/CoffeeBrains/static/media/cart.d53b4ec75d5b0d8318d9.png",
+    "static/media/store.png": "/CoffeeBrains/static/media/store.6b29e204acf31144eb25.png",
+    "static/media/cup.png": "/CoffeeBrains/static/media/cup.e1c0042699659ae2dc3d.png",
+    "index.html": "/CoffeeBrains/index.html",
+    "main.6830b7b2.css.map": "/CoffeeBrains/static/css/main.6830b7b2.css.map",
+    "main.cfc6b79d.js.map": "/CoffeeBrains/static/js/main.cfc6b79d.js.map",
+    "787.28cb0dcd.chunk.js.map": "/CoffeeBrains/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6830b7b2.css",
+    "static/js/main.cfc6b79d.js"
+  ]
+}
